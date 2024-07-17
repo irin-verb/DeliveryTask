@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<CommandSet>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>ChangeHistory</ExcludedCommand>
+		<ExcludedCommand>Close</ExcludedCommand>
+		<ExcludedCommand>Copy</ExcludedCommand>
+		<ExcludedCommand>CustomizeForm</ExcludedCommand>
+		<ExcludedCommand>Delete</ExcludedCommand>
+		<ExcludedCommand>Help</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>OpenFromMainServer</ExcludedCommand>
+		<ExcludedCommand>OpenFromStandaloneServer</ExcludedCommand>
+		<ExcludedCommand>Reread</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>SetDeletionMark</ExcludedCommand>
+		<ExcludedCommand>ShowInList</ExcludedCommand>
+		<ExcludedCommand>Write</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+	</CommandSet>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+	</Events>
+	<ChildItems>
+		<LabelDecoration name="ДекорацияПредупреждение" id="32">
+			<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Можно выбрать не больше двух магазинов</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияПредупреждениеКонтекстноеМеню" id="33"/>
+			<ExtendedTooltip name="ДекорацияПредупреждениеРасширеннаяПодсказка" id="34"/>
+		</LabelDecoration>
+		<Table name="ПриоритетныеМагазины" id="13">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ПриоритетныеМагазины</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ПриоритетныеМагазиныКонтекстноеМеню" id="14"/>
+			<AutoCommandBar name="ПриоритетныеМагазиныКоманднаяПанель" id="15"/>
+			<ExtendedTooltip name="ПриоритетныеМагазиныРасширеннаяПодсказка" id="16"/>
+			<SearchStringAddition name="ПриоритетныеМагазиныСтрокаПоиска" id="17">
+				<AdditionSource>
+					<Item>ПриоритетныеМагазины</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПриоритетныеМагазиныСтрокаПоискаКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ПриоритетныеМагазиныСтрокаПоискаРасширеннаяПодсказка" id="19"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПриоритетныеМагазиныСостояниеПросмотра" id="20">
+				<AdditionSource>
+					<Item>ПриоритетныеМагазины</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПриоритетныеМагазиныСостояниеПросмотраКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ПриоритетныеМагазиныСостояниеПросмотраРасширеннаяПодсказка" id="22"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПриоритетныеМагазиныУправлениеПоиском" id="23">
+				<AdditionSource>
+					<Item>ПриоритетныеМагазины</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПриоритетныеМагазиныУправлениеПоискомКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ПриоритетныеМагазиныУправлениеПоискомРасширеннаяПодсказка" id="25"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="BeforeAddRow">ПриоритетныеМагазиныПередНачаломДобавления</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="ПриоритетныеМагазиныНомерСтроки" id="26">
+					<DataPath>Объект.ПриоритетныеМагазины.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПриоритетныеМагазиныНомерСтрокиКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ПриоритетныеМагазиныНомерСтрокиРасширеннаяПодсказка" id="28"/>
+				</LabelField>
+				<InputField name="ПриоритетныеМагазиныМагазин" id="29">
+					<DataPath>Объект.ПриоритетныеМагазины.Магазин</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПриоритетныеМагазиныМагазинКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ПриоритетныеМагазиныМагазинРасширеннаяПодсказка" id="31"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Курьеры</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
