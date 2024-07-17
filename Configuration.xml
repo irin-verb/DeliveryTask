@@ -72,7 +72,7 @@
 			<UsedMobileApplicationFunctionalities>
 				<app:functionality>
 					<app:functionality>Biometrics</app:functionality>
-					<app:use>true</app:use>
+					<app:use>false</app:use>
 				</app:functionality>
 				<app:functionality>
 					<app:functionality>Location</app:functionality>
@@ -100,7 +100,7 @@
 				</app:functionality>
 				<app:functionality>
 					<app:functionality>PushNotifications</app:functionality>
-					<app:use>false</app:use>
+					<app:use>true</app:use>
 				</app:functionality>
 				<app:functionality>
 					<app:functionality>LocalNotifications</app:functionality>
@@ -254,8 +254,13 @@
 			<CommonCommand>ИзменитьПриоритетныеМагазиныКурьера</CommonCommand>
 			<Catalog>Курьеры</Catalog>
 			<Catalog>Магазины</Catalog>
+			<Document>Заказ</Document>
 			<Enum>ВидыКурьеров</Enum>
 			<Enum>СтатусыГотовностиКурьеровКРаботе</Enum>
+			<Enum>СтадииДоставкиЗаказа</Enum>
+			<Enum>СтатусыПодбораКурьераКЗаказу</Enum>
+			<Enum>ЭтапыПодбораКурьеров</Enum>
+			<InformationRegister>ПодборКурьераКЗаказу</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

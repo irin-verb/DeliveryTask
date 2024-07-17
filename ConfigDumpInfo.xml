@@ -21,23 +21,59 @@
 		<Metadata name="CommonCommand.ИзменитьПриоритетныеМагазиныКурьера.CommandModule" id="5c169ac6-f52f-49ea-b0dd-2ca4003c4e26.2" configVersion="978faf4d63ad804d90b9a99b33764abb00000000"/>
 		<Metadata name="CommonModule.МенеджерКурьеров" id="bb8165d3-2726-4347-a62d-2735fc84e0c3" configVersion="844e1d609fd5d34ba7ee908d9815e89300000000"/>
 		<Metadata name="CommonModule.МенеджерКурьеров.Module" id="bb8165d3-2726-4347-a62d-2735fc84e0c3.0" configVersion="d7eb0a6b3d1fdb48a60d589cdf44681b00000000"/>
-		<Metadata name="Configuration.Конфигурация" id="41a5c658-ff28-4cf2-99e9-4228f54d22be" configVersion="4b71076feca4f749ab9c90b87c7fd12600000000"/>
-		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="926a0a51-60b2-456a-9a9e-ce049d0dd475.9" configVersion="55d7bf9c8a904d449fdd476452457d1200000000"/>
+		<Metadata name="Configuration.Конфигурация" id="41a5c658-ff28-4cf2-99e9-4228f54d22be" configVersion="de12c396350a114298b7d182468e423900000000"/>
+		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="926a0a51-60b2-456a-9a9e-ce049d0dd475.9" configVersion="1d47096986268643b3be5ea77b27bc5300000000"/>
 		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="926a0a51-60b2-456a-9a9e-ce049d0dd475.6" configVersion="c2ddb87c4c8f394d9e818c475a412ef700000000"/>
+		<Metadata name="Document.Заказ" id="3b94e066-6fe8-4ff3-9de0-358f56ff6c81" configVersion="9e9ab1c46b745847b06077d274e2d87100000000">
+			<Metadata name="Document.Заказ.Attribute.Магазин" id="6ac0ccf1-028d-4f39-a9fc-6f7828350484"/>
+			<Metadata name="Document.Заказ.Attribute.АдресДоставки" id="7cf1f987-efa0-43b0-b302-77f7cfd4eee3"/>
+			<Metadata name="Document.Заказ.Attribute.Состояние" id="bce79890-b292-4b81-b874-e98cd0fd5444"/>
+			<Metadata name="Document.Заказ.Attribute.Курьер" id="d9b6b59b-0de4-434c-98e2-57d4144e36fe"/>
+		</Metadata>
+		<Metadata name="Document.Заказ.Form.КурьерскаяФормаДокумента" id="d66718fe-7124-4b63-aa62-9514f5cabee8" configVersion="57466eb37dc2b54193539657bc08357800000000"/>
+		<Metadata name="Document.Заказ.Form.КурьерскаяФормаДокумента.Form" id="d66718fe-7124-4b63-aa62-9514f5cabee8.0" configVersion="77ff2bb8521e8b449642764f39c8474d00000000"/>
+		<Metadata name="Document.Заказ.Form.ОсновнаяФормаДокумента" id="54721b6c-e5b8-4de9-bff4-0d959e6b1419" configVersion="697c1570207c1b409198db2f36f2c9e800000000"/>
+		<Metadata name="Document.Заказ.Form.ОсновнаяФормаДокумента.Form" id="54721b6c-e5b8-4de9-bff4-0d959e6b1419.0" configVersion="6bd7e640d5fd3648854d1775e35fdbc600000000"/>
+		<Metadata name="Document.Заказ.ManagerModule" id="3b94e066-6fe8-4ff3-9de0-358f56ff6c81.2" configVersion="aa6f31db96f8b34d968eea682c5d3b1a00000000"/>
 		<Metadata name="Enum.ВидыКурьеров" id="6c3eaf67-2999-44e7-b460-53b556574d60" configVersion="b91081a8d71ac643a8c8814f758aa38300000000">
 			<Metadata name="Enum.ВидыКурьеров.EnumValue.Дополнительный" id="77a06d7c-2fae-4d2d-8d24-a1f1ef588bf1"/>
 			<Metadata name="Enum.ВидыКурьеров.EnumValue.Основной" id="e2b67d27-2199-463e-8d66-dbe0663b4f97"/>
+		</Metadata>
+		<Metadata name="Enum.СтадииДоставкиЗаказа" id="57a3769f-1712-495a-9e28-ee14b2b723f9" configVersion="c8fa944d1df526439d2ef69bc440923000000000">
+			<Metadata name="Enum.СтадииДоставкиЗаказа.EnumValue.Начат" id="40a37fca-df4f-4e63-8032-2fcda52c8c01"/>
+			<Metadata name="Enum.СтадииДоставкиЗаказа.EnumValue.ПодборКурьера" id="77820d7b-1763-43da-8a1e-662df1c548aa"/>
+			<Metadata name="Enum.СтадииДоставкиЗаказа.EnumValue.Доставлен" id="7ac3c698-ec29-408a-8ebf-b8f3f5d70c4c"/>
+			<Metadata name="Enum.СтадииДоставкиЗаказа.EnumValue.Задерживается" id="88bc0644-d097-4391-b9b2-678157a4ccf0"/>
+			<Metadata name="Enum.СтадииДоставкиЗаказа.EnumValue.Отменен" id="caa2e601-9038-4f12-998a-0ebafb0319da"/>
+			<Metadata name="Enum.СтадииДоставкиЗаказа.EnumValue.НеДоставлен" id="d8566b20-6836-447a-99d5-94ae0bb892f8"/>
+			<Metadata name="Enum.СтадииДоставкиЗаказа.EnumValue.Доставляется" id="eaccb6c7-589c-4b77-9fce-d273cf6307a2"/>
 		</Metadata>
 		<Metadata name="Enum.СтатусыГотовностиКурьеровКРаботе" id="3bf2e86f-0409-41fd-8329-a608349913a6" configVersion="f1e64ed8a51b6345a7b9a8e1a45523c200000000">
 			<Metadata name="Enum.СтатусыГотовностиКурьеровКРаботе.EnumValue.НеГотов" id="91761ac9-1d05-491c-92c5-13ed34186173"/>
 			<Metadata name="Enum.СтатусыГотовностиКурьеровКРаботе.EnumValue.Готов" id="9d2b2eb4-c3cc-4e01-a6da-55ed0087a20a"/>
 		</Metadata>
+		<Metadata name="Enum.СтатусыПодбораКурьераКЗаказу" id="bd4f5bd3-e1a7-43df-bd6e-647e5b2d268f" configVersion="7c44b8df67b2004dbec11da1e0a5389000000000">
+			<Metadata name="Enum.СтатусыПодбораКурьераКЗаказу.EnumValue.НетОтвета" id="08c58fd7-a13c-4191-9591-06d99ceca4c0"/>
+			<Metadata name="Enum.СтатусыПодбораКурьераКЗаказу.EnumValue.НеБеру" id="52da2dd0-02e9-45b9-8ce8-cd57c1700591"/>
+			<Metadata name="Enum.СтатусыПодбораКурьераКЗаказу.EnumValue.БеруВРаботу" id="76225f1c-289b-40ba-85c0-cfec34afaa78"/>
+		</Metadata>
+		<Metadata name="Enum.ЭтапыПодбораКурьеров" id="bd01f03d-0f7e-489b-b9c7-9cf8ffb6f116" configVersion="f96523225091ec4ba42c77ba03fac24500000000">
+			<Metadata name="Enum.ЭтапыПодбораКурьеров.EnumValue.ОсновныеГотовыеКурьеры" id="36056748-e965-43ba-91a1-46d5113a6634"/>
+			<Metadata name="Enum.ЭтапыПодбораКурьеров.EnumValue.ДополнительныеГотовыеСПриоритетом" id="9f5ec3e9-3bda-4e88-a14a-7040090cd964"/>
+			<Metadata name="Enum.ЭтапыПодбораКурьеров.EnumValue.ДополнительныеГотовые" id="d49ae24a-9674-4fc4-a36c-5fa4204d1b9c"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ПодборКурьераКЗаказу" id="88a44f82-8d6d-4aa9-a14d-71d57e25c295" configVersion="1745c962c5e7694ca662ff5c38628e7b00000000">
+			<Metadata name="InformationRegister.ПодборКурьераКЗаказу.Dimension.Заказ" id="09b8943d-3b3a-4f1b-9979-d294cd3f67db"/>
+			<Metadata name="InformationRegister.ПодборКурьераКЗаказу.Resource.ЭтапПодбора" id="a629b67f-72d5-416e-8297-c58c3d947987"/>
+			<Metadata name="InformationRegister.ПодборКурьераКЗаказу.Resource.ОтветКурьера" id="bc6b31f8-ab74-4a89-af0c-2538122a4429"/>
+			<Metadata name="InformationRegister.ПодборКурьераКЗаказу.Resource.Курьер" id="c16d0a21-ae4e-4c6c-b5c1-39b16f4714fe"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="a88fc611-a459-4540-8f40-7552ac058a81" configVersion="3d85ddbaf9ffc944839da1b4b614ede800000000"/>
-		<Metadata name="Role.Администратор" id="94add1f8-4c69-46a2-838c-b31e065b8432" configVersion="45cc40e860b6a447bac54d52895663eb00000000"/>
-		<Metadata name="Role.Администратор.Rights" id="94add1f8-4c69-46a2-838c-b31e065b8432.0" configVersion="a92891584d60fb448b3a931afa58451800000000"/>
-		<Metadata name="Role.Курьер" id="01ff7d37-066b-4e28-88a3-c6b87ba7edba" configVersion="56c98660c327994b9372c19953fc806d00000000"/>
-		<Metadata name="Role.Курьер.Rights" id="01ff7d37-066b-4e28-88a3-c6b87ba7edba.0" configVersion="39aef46153bdca4e847753fa1ada520700000000"/>
-		<Metadata name="Role.Менеджер" id="4e41e924-2190-42a0-9e88-5bf90ca5be6b" configVersion="47518c0c69a3fc4ebc89a62fbb619f0400000000"/>
-		<Metadata name="Role.Менеджер.Rights" id="4e41e924-2190-42a0-9e88-5bf90ca5be6b.0" configVersion="404d3d27b539d04dbd82cba791b686c200000000"/>
+		<Metadata name="Role.Администратор" id="94add1f8-4c69-46a2-838c-b31e065b8432" configVersion="0954ee38de228e4cb52431006fa1ec0e00000000"/>
+		<Metadata name="Role.Администратор.Rights" id="94add1f8-4c69-46a2-838c-b31e065b8432.0" configVersion="0770906b0dd83b4ea10fc3878a04585c00000000"/>
+		<Metadata name="Role.Курьер" id="01ff7d37-066b-4e28-88a3-c6b87ba7edba" configVersion="8692cc2592695a41be775e7d7d03790700000000"/>
+		<Metadata name="Role.Курьер.Rights" id="01ff7d37-066b-4e28-88a3-c6b87ba7edba.0" configVersion="a8f7eb2825a4fa4cbd5abec4bdc466b000000000"/>
+		<Metadata name="Role.Менеджер" id="4e41e924-2190-42a0-9e88-5bf90ca5be6b" configVersion="210c36a1e41b4c46b3b45419714f314200000000"/>
+		<Metadata name="Role.Менеджер.Rights" id="4e41e924-2190-42a0-9e88-5bf90ca5be6b.0" configVersion="134c0d110ee5344cb497db251ed04b2700000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
