@@ -30,6 +30,9 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="АдресДоставки" id="7">
 			<DataPath>Объект.АдресДоставки</DataPath>
@@ -73,20 +76,21 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКомандРасширеннаяПодсказка" id="17"/>
 			<ChildItems>
-				<Button name="ЗабралИзМагазина" id="18">
+				<Button name="ПодтвердитьДоставку" id="22">
 					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ЗабралИзМагазина</CommandName>
-					<ExtendedTooltip name="ЗабралИзМагазинаРасширеннаяПодсказка" id="19"/>
+					<CommandName>Form.Command.ПодтвердитьДоставку</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подтвердить доставку</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ПодтвердитьДоставкуРасширеннаяПодсказка" id="23"/>
 				</Button>
-				<Button name="ДоставилКлиенту" id="20">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ДоставилКлиенту</CommandName>
-					<ExtendedTooltip name="ДоставилКлиентуРасширеннаяПодсказка" id="21"/>
-				</Button>
-				<Button name="ОтменитьДоставку" id="22">
+				<Button name="ОтменитьДоставку" id="20">
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.ОтменитьДоставку</CommandName>
-					<ExtendedTooltip name="ОтменитьДоставкуРасширеннаяПодсказка" id="23"/>
+					<ExtendedTooltip name="ОтменитьДоставкуРасширеннаяПодсказка" id="21"/>
 				</Button>
 			</ChildItems>
 		</UsualGroup>
@@ -104,36 +108,6 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ЗабралИзМагазина" id="1">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Забрал из магазина</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Забрал из магазина</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ЗабралИзМагазина</Action>
-		</Command>
-		<Command name="ДоставилКлиенту" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Доставил клиенту</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Доставил клиенту</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ДоставилКлиенту</Action>
-		</Command>
 		<Command name="ОтменитьДоставку" id="3">
 			<Title>
 				<v8:item>
@@ -148,6 +122,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОтменитьДоставку</Action>
+		</Command>
+		<Command name="ПодтвердитьДоставку" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подтвердить доставку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подтвердить доставку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПодтвердитьДоставку</Action>
 		</Command>
 	</Commands>
 </Form>
