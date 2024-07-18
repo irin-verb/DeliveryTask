@@ -260,7 +260,6 @@
 			<Enum>СтатусыГотовностиКурьеровКРаботе</Enum>
 			<Enum>СтадииДоставкиЗаказа</Enum>
 			<Enum>СтатусыПодбораКурьераКЗаказу</Enum>
-			<Enum>ЭтапыПодбораКурьеров</Enum>
 			<InformationRegister>ПодборКурьераКЗаказу</InformationRegister>
 		</ChildObjects>
 	</Configuration>
