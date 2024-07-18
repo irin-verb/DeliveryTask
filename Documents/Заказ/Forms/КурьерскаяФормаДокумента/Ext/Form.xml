@@ -50,47 +50,70 @@
 			<ContextMenu name="МагазинКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="МагазинРасширеннаяПодсказка" id="12"/>
 		</InputField>
-		<InputField name="Состояние" id="13">
+		<InputField name="Состояние" id="25">
 			<DataPath>Объект.Состояние</DataPath>
 			<ReadOnly>true</ReadOnly>
-			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="СостояниеКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="СостояниеРасширеннаяПодсказка" id="15"/>
+			<ContextMenu name="СостояниеКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="СостояниеРасширеннаяПодсказка" id="27"/>
 		</InputField>
-		<UsualGroup name="ГруппаКоманд" id="16">
+		<UsualGroup name="ГруппаКнопокЗаявка" id="13">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа команд</v8:content>
+					<v8:content>Группа кнопок заявка</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа команд</v8:content>
+					<v8:content>Группа кнопок заявка</v8:content>
 				</v8:item>
 			</ToolTip>
+			<HorizontalStretch>false</HorizontalStretch>
 			<Group>AlwaysHorizontal</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаКомандРасширеннаяПодсказка" id="17"/>
+			<ExtendedTooltip name="ГруппаКнопокЗаявкаРасширеннаяПодсказка" id="14"/>
 			<ChildItems>
-				<Button name="ПодтвердитьДоставку" id="22">
+				<Button name="БеруВРаботу" id="15">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.БеруВРаботу</CommandName>
+					<ExtendedTooltip name="БеруВРаботуРасширеннаяПодсказка" id="16"/>
+				</Button>
+				<Button name="НеБеру" id="17">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.НеБеру</CommandName>
+					<ExtendedTooltip name="НеБеруРасширеннаяПодсказка" id="18"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКнопокДоставка" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа кнопок доставка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа кнопок доставка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКнопокДоставкаРасширеннаяПодсказка" id="24"/>
+			<ChildItems>
+				<Button name="ПодтвердитьДоставку" id="21">
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.ПодтвердитьДоставку</CommandName>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Подтвердить доставку</v8:content>
-						</v8:item>
-					</Title>
-					<ExtendedTooltip name="ПодтвердитьДоставкуРасширеннаяПодсказка" id="23"/>
+					<ExtendedTooltip name="ПодтвердитьДоставкуРасширеннаяПодсказка" id="22"/>
 				</Button>
-				<Button name="ОтменитьДоставку" id="20">
+				<Button name="ОтменитьДоставку" id="19">
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.ОтменитьДоставку</CommandName>
-					<ExtendedTooltip name="ОтменитьДоставкуРасширеннаяПодсказка" id="21"/>
+					<ExtendedTooltip name="ОтменитьДоставкуРасширеннаяПодсказка" id="20"/>
 				</Button>
 			</ChildItems>
 		</UsualGroup>
@@ -108,6 +131,36 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
+		<Command name="БеруВРаботу" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Беру в работу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Беру в работу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>БеруВРаботу</Action>
+		</Command>
+		<Command name="НеБеру" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не беру</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не беру</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НеБеру</Action>
+		</Command>
 		<Command name="ОтменитьДоставку" id="3">
 			<Title>
 				<v8:item>
@@ -123,7 +176,7 @@
 			</ToolTip>
 			<Action>ОтменитьДоставку</Action>
 		</Command>
-		<Command name="ПодтвердитьДоставку" id="1">
+		<Command name="ПодтвердитьДоставку" id="4">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>

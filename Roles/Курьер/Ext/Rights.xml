@@ -337,6 +337,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonCommand.ОткрытьЗаявкиНаДоставкуКурьера</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.Заказ.Attribute.Состояние</name>
 		<right>
 			<name>Edit</name>
@@ -348,6 +355,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ОткрытьЗавершенныеДоставкиКурьера</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -468,6 +482,13 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ОткрытьТекущуюДоставкуКурьера</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

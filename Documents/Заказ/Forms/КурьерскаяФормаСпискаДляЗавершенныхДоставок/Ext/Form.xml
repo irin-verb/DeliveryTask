@@ -50,17 +50,6 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
 		</UsualGroup>
-		<LabelDecoration name="ДекорацияИнформация" id="22">
-			<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
-			<Title formatted="false">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Выберите и возьмите в работу один из предложенных заказов</v8:content>
-				</v8:item>
-			</Title>
-			<ContextMenu name="ДекорацияИнформацияКонтекстноеМеню" id="23"/>
-			<ExtendedTooltip name="ДекорацияИнформацияРасширеннаяПодсказка" id="24"/>
-		</LabelDecoration>
 		<Table name="Список" id="3">
 			<Representation>List</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
@@ -148,15 +137,15 @@
 	Заказы.АдресДоставки КАК АдресДоставки,
 	Заказы.Магазин КАК Магазин,
 	Заказы.Состояние КАК Состояние,
-	Заказы.Курьер КАК Курьер
+	Заказы.Курьер КАК Курьер,
+	Заказы.Представление КАК Представление,
+	Заказы.МоментВремени КАК МоментВремени
 ИЗ
 	Документ.Заказ КАК Заказы
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ПодборКурьераКЗаказу.СрезПоследних КАК ПодборКурьераКЗаказуСрезПоследних
-		ПО ПодборКурьераКЗаказуСрезПоследних.Заказ = Заказы.Ссылка
 ГДЕ
-	Заказы.Состояние = ЗНАЧЕНИЕ(Перечисление.СтадииДоставкиЗаказа.ПодборКурьера)
-	И ПодборКурьераКЗаказуСрезПоследних.Курьер = &amp;Курьер
-	И ПодборКурьераКЗаказуСрезПоследних.ОтветКурьера = ЗНАЧЕНИЕ(Перечисление.СтатусыПодбораКурьераКЗаказу.НетОтвета)</QueryText>
+	(Заказы.Состояние = ЗНАЧЕНИЕ(Перечисление.СтадииДоставкиЗаказа.Доставлен)
+			ИЛИ Заказы.Состояние = ЗНАЧЕНИЕ(Перечисление.СтадииДоставкиЗаказа.Отменен))
+	И Заказы.Курьер = &amp;Курьер</QueryText>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Ссылка</dcssch:dataPath>
 					<dcssch:field>Ссылка</dcssch:field>
@@ -198,30 +187,9 @@
 					<dcssch:field>МоментВремени</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Заказ</dcssch:dataPath>
-					<dcssch:field>Заказ</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ВерсияДанных</dcssch:dataPath>
 					<dcssch:field>ВерсияДанных</dcssch:field>
 				</Field>
-				<Parameter>
-					<dcssch:name>Период</dcssch:name>
-					<dcssch:title xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Период</v8:content>
-						</v8:item>
-					</dcssch:title>
-					<dcssch:valueType>
-						<v8:Type>xs:dateTime</v8:Type>
-						<v8:DateQualifiers>
-							<v8:DateFractions>DateTime</v8:DateFractions>
-						</v8:DateQualifiers>
-					</dcssch:valueType>
-					<dcssch:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcssch:value>
-					<dcssch:useRestriction>false</dcssch:useRestriction>
-				</Parameter>
 				<Parameter>
 					<dcssch:name>Курьер</dcssch:name>
 					<dcssch:title xsi:type="v8:LocalStringType">

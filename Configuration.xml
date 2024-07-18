@@ -253,6 +253,9 @@
 			<CommonModule>МенеджерЗаказов</CommonModule>
 			<CommonCommand>ИзменитьГотовностьКурьераКРаботе</CommonCommand>
 			<CommonCommand>ИзменитьПриоритетныеМагазиныКурьера</CommonCommand>
+			<CommonCommand>ОткрытьЗаявкиНаДоставкуКурьера</CommonCommand>
+			<CommonCommand>ОткрытьТекущуюДоставкуКурьера</CommonCommand>
+			<CommonCommand>ОткрытьЗавершенныеДоставкиКурьера</CommonCommand>
 			<Catalog>Курьеры</Catalog>
 			<Catalog>Магазины</Catalog>
 			<Document>Заказ</Document>

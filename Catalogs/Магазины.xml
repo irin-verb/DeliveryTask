@@ -131,6 +131,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Form>КурьерскаяФормаСписка</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

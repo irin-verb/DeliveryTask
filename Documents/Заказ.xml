@@ -243,10 +243,9 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Form>КурьерскаяФормаДокументаДляЗаявок</Form>
+			<Form>КурьерскаяФормаДокумента</Form>
 			<Form>КурьерскаяФормаСпискаДляЗаявок</Form>
-			<Form>КурьерскаяФормаСпискаДляДоставок</Form>
-			<Form>КурьерскаяФормаДокументаДляДоставок</Form>
+			<Form>КурьерскаяФормаСпискаДляЗавершенныхДоставок</Form>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

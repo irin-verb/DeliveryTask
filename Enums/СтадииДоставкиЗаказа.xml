@@ -62,18 +62,6 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="caa2e601-9038-4f12-998a-0ebafb0319da">
-				<Properties>
-					<Name>Отменен</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Отменен</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
 			<EnumValue uuid="eaccb6c7-589c-4b77-9fce-d273cf6307a2">
 				<Properties>
 					<Name>Доставляется</Name>
@@ -110,13 +98,13 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="d8566b20-6836-447a-99d5-94ae0bb892f8">
+			<EnumValue uuid="caa2e601-9038-4f12-998a-0ebafb0319da">
 				<Properties>
-					<Name>НеДоставлен</Name>
+					<Name>Отменен</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Не доставлен</v8:content>
+							<v8:content>Отменен</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
