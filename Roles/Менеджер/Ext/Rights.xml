@@ -295,17 +295,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПодборКурьераКЗаказу.Resource.Курьер</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.Заказ.Attribute.Курьер</name>
 		<right>
 			<name>Edit</name>

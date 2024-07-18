@@ -49,7 +49,7 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Document.Заказ.Form.ОсновнаяФормаДокумента</DefaultObjectForm>
+			<DefaultObjectForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -243,8 +243,10 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Form>ОсновнаяФормаДокумента</Form>
-			<Form>КурьерскаяФормаДокумента</Form>
+			<Form>КурьерскаяФормаДокументаДляЗаявок</Form>
+			<Form>КурьерскаяФормаСпискаДляЗаявок</Form>
+			<Form>КурьерскаяФормаСпискаДляДоставок</Form>
+			<Form>КурьерскаяФормаДокументаДляДоставок</Form>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

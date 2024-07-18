@@ -7,5 +7,35 @@
 				<xr:Value name="Role.Курьер">false</xr:Value>
 			</Visibility>
 		</Command>
+		<Command name="InformationRegister.ПодборКурьераКЗаказу.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Курьер">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.Заказ.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Курьер">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Курьеры.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Курьер">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Магазины.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Курьер">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ПодборКурьераКЗаказу.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Курьер">false</xr:Value>
+			</Visibility>
+		</Command>
 	</CommandsVisibility>
 </CommandInterface>

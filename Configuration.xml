@@ -250,6 +250,7 @@
 			<Role>Менеджер</Role>
 			<Role>Курьер</Role>
 			<CommonModule>МенеджерКурьеров</CommonModule>
+			<CommonModule>МенеджерЗаказов</CommonModule>
 			<CommonCommand>ИзменитьГотовностьКурьераКРаботе</CommonCommand>
 			<CommonCommand>ИзменитьПриоритетныеМагазиныКурьера</CommonCommand>
 			<Catalog>Курьеры</Catalog>
