@@ -10,10 +10,10 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<MethodName>CommonModule.МенеджерРегламентныхЗаданий.ПодборКурьеровКЗаказу</MethodName>
+			<MethodName>CommonModule.МенеджерКонтроляЗаказов.ПодборКурьеровКЗаказу</MethodName>
 			<Description/>
 			<Key/>
-			<Use>false</Use>
+			<Use>true</Use>
 			<Predefined>true</Predefined>
 			<RestartCountOnFailure>3</RestartCountOnFailure>
 			<RestartIntervalOnFailure>10</RestartIntervalOnFailure>

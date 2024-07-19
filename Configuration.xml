@@ -252,7 +252,7 @@
 			<Role>Курьер</Role>
 			<CommonModule>МенеджерКурьеров</CommonModule>
 			<CommonModule>МенеджерЗаказов</CommonModule>
-			<CommonModule>МенеджерРегламентныхЗаданий</CommonModule>
+			<CommonModule>МенеджерКонтроляЗаказов</CommonModule>
 			<ScheduledJob>ПодборКурьеровКЗаказам</ScheduledJob>
 			<ScheduledJob>КонтрольОпаздывающихКурьеров</ScheduledJob>
 			<CommonCommand>ИзменитьГотовностьКурьераКРаботе</CommonCommand>
