@@ -126,41 +126,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Заказ.StandardAttribute.Posted</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Заказ.StandardAttribute.Ref</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Заказ.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Заказ.StandardAttribute.Date</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Заказ.StandardAttribute.Number</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Configuration.Конфигурация</name>
 		<right>
 			<name>Administration</name>
@@ -268,20 +233,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Заказ.Attribute.Магазин</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Заказ.Attribute.АдресДоставки</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ПодборКурьераКЗаказу.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
@@ -331,20 +282,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Заказ.Attribute.Состояние</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Заказ.Attribute.Курьер</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

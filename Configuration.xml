@@ -260,8 +260,8 @@
 			<CommonCommand>ОткрытьЗаявкиНаДоставкуКурьера</CommonCommand>
 			<CommonCommand>ОткрытьТекущуюДоставкуКурьера</CommonCommand>
 			<CommonCommand>ОткрытьЗавершенныеДоставкиКурьера</CommonCommand>
-			<CommonCommand>ОпаздывающиеКурьеры</CommonCommand>
-			<CommonCommand>ПодборКурьеров</CommonCommand>
+			<CommonCommand>ПроверитьОпаздывающихКурьеров</CommonCommand>
+			<CommonCommand>ПодобратьКурьеровКЗаказам</CommonCommand>
 			<Catalog>Курьеры</Catalog>
 			<Catalog>Магазины</Catalog>
 			<Document>Заказ</Document>

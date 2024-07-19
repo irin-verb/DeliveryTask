@@ -340,14 +340,14 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonCommand.ПодборКурьеров</name>
+		<name>CommonCommand.ПодобратьКурьеровКЗаказам</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>CommonCommand.ОпаздывающиеКурьеры</name>
+		<name>CommonCommand.ПроверитьОпаздывающихКурьеров</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

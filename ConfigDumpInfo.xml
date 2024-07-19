@@ -22,27 +22,27 @@
 		<Metadata name="CommonCommand.ИзменитьГотовностьКурьераКРаботе.CommandModule" id="dd79c1e9-5f03-4b1e-bf23-a6b9f26a82ce.2" configVersion="2574ce43f467db489dd3063fd62d1bf600000000"/>
 		<Metadata name="CommonCommand.ИзменитьПриоритетныеМагазиныКурьера" id="5c169ac6-f52f-49ea-b0dd-2ca4003c4e26" configVersion="0d8965222d3e5d4b8c807e3f0871b9f500000000"/>
 		<Metadata name="CommonCommand.ИзменитьПриоритетныеМагазиныКурьера.CommandModule" id="5c169ac6-f52f-49ea-b0dd-2ca4003c4e26.2" configVersion="978faf4d63ad804d90b9a99b33764abb00000000"/>
-		<Metadata name="CommonCommand.ОпаздывающиеКурьеры" id="c4b55cc4-5dd0-46c6-8b5f-dc1bd1282e00" configVersion="c4303e47d2f1ad4f8a9c53f0c83221fc00000000"/>
-		<Metadata name="CommonCommand.ОпаздывающиеКурьеры.CommandModule" id="c4b55cc4-5dd0-46c6-8b5f-dc1bd1282e00.2" configVersion="9c88aafdd04eb540877be16bc2145f8200000000"/>
 		<Metadata name="CommonCommand.ОткрытьЗавершенныеДоставкиКурьера" id="da857fa1-af0e-49ad-8286-18090e586bda" configVersion="9e73bcb7bd170c49b9175451649ccf0400000000"/>
 		<Metadata name="CommonCommand.ОткрытьЗавершенныеДоставкиКурьера.CommandModule" id="da857fa1-af0e-49ad-8286-18090e586bda.2" configVersion="7f75861047e8304a92d1b8b3ee13ab1500000000"/>
 		<Metadata name="CommonCommand.ОткрытьЗаявкиНаДоставкуКурьера" id="a976cfb9-eb18-4327-a403-8a97d4f4db16" configVersion="3c281925cadf82428efee239daa7964f00000000"/>
 		<Metadata name="CommonCommand.ОткрытьЗаявкиНаДоставкуКурьера.CommandModule" id="a976cfb9-eb18-4327-a403-8a97d4f4db16.2" configVersion="bd6eda080d5180479dfcaaf945a5b33c00000000"/>
 		<Metadata name="CommonCommand.ОткрытьТекущуюДоставкуКурьера" id="ee302a16-320f-45d3-998e-45a8898c98c7" configVersion="e98d41d1f4f4aa4eb1a5ca2a62e6b91400000000"/>
 		<Metadata name="CommonCommand.ОткрытьТекущуюДоставкуКурьера.CommandModule" id="ee302a16-320f-45d3-998e-45a8898c98c7.2" configVersion="836afc87d8682040937b5d154131a9df00000000"/>
-		<Metadata name="CommonCommand.ПодборКурьеров" id="8d0de1ec-f844-4d94-ba51-439ac2c2e116" configVersion="7ff3f431b9d90e4a9fc01dd23c0abe7d00000000"/>
-		<Metadata name="CommonCommand.ПодборКурьеров.CommandModule" id="8d0de1ec-f844-4d94-ba51-439ac2c2e116.2" configVersion="b79d9500b66abc4db723fbf59a96296200000000"/>
+		<Metadata name="CommonCommand.ПодобратьКурьеровКЗаказам" id="8d0de1ec-f844-4d94-ba51-439ac2c2e116" configVersion="37c841a544652949bdf931b3d934bf6800000000"/>
+		<Metadata name="CommonCommand.ПодобратьКурьеровКЗаказам.CommandModule" id="8d0de1ec-f844-4d94-ba51-439ac2c2e116.2" configVersion="b79d9500b66abc4db723fbf59a96296200000000"/>
+		<Metadata name="CommonCommand.ПроверитьОпаздывающихКурьеров" id="c4b55cc4-5dd0-46c6-8b5f-dc1bd1282e00" configVersion="8a565af72f5dd849a1f8ddc5d2899b6400000000"/>
+		<Metadata name="CommonCommand.ПроверитьОпаздывающихКурьеров.CommandModule" id="c4b55cc4-5dd0-46c6-8b5f-dc1bd1282e00.2" configVersion="9c88aafdd04eb540877be16bc2145f8200000000"/>
 		<Metadata name="CommonModule.МенеджерЗаказов" id="b3123dba-110d-4ebd-a1e8-9edaca059e25" configVersion="b08607e9159d394798125a84ab81a9f200000000"/>
 		<Metadata name="CommonModule.МенеджерЗаказов.Module" id="b3123dba-110d-4ebd-a1e8-9edaca059e25.0" configVersion="f23ffd33ca3285459da60e4639f8706700000000"/>
-		<Metadata name="CommonModule.МенеджерКонтроляЗаказов" id="0859f655-23e0-4961-a86a-92735b361f99" configVersion="cd2615909e6de44b9bec8da2fbacb8a700000000"/>
-		<Metadata name="CommonModule.МенеджерКонтроляЗаказов.Module" id="0859f655-23e0-4961-a86a-92735b361f99.0" configVersion="51936c39893fc544931c0e4b4160e1c900000000"/>
+		<Metadata name="CommonModule.МенеджерКонтроляЗаказов" id="0859f655-23e0-4961-a86a-92735b361f99" configVersion="479247abc9d22f4c938f65a61e11193000000000"/>
+		<Metadata name="CommonModule.МенеджерКонтроляЗаказов.Module" id="0859f655-23e0-4961-a86a-92735b361f99.0" configVersion="3478fc331319864fa6b3e83bba4c501f00000000"/>
 		<Metadata name="CommonModule.МенеджерКурьеров" id="bb8165d3-2726-4347-a62d-2735fc84e0c3" configVersion="ad037e46876c674a89df77d24638cf7500000000"/>
 		<Metadata name="CommonModule.МенеджерКурьеров.Module" id="bb8165d3-2726-4347-a62d-2735fc84e0c3.0" configVersion="48801b4d669d7e4db472a11b1209969400000000"/>
 		<Metadata name="Configuration.Конфигурация" id="41a5c658-ff28-4cf2-99e9-4228f54d22be" configVersion="f469d93610a5ef4bb2349dd16afecaba00000000"/>
 		<Metadata name="Configuration.Конфигурация.ClientApplicationInterface" id="926a0a51-60b2-456a-9a9e-ce049d0dd475.b" configVersion="a6ece6bb009b5d4db304cf7392f9809c00000000"/>
 		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="926a0a51-60b2-456a-9a9e-ce049d0dd475.9" configVersion="a9b2dccff5fae24596d608c2f7ee229700000000"/>
 		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="926a0a51-60b2-456a-9a9e-ce049d0dd475.6" configVersion="c2ddb87c4c8f394d9e818c475a412ef700000000"/>
-		<Metadata name="Document.Заказ" id="3b94e066-6fe8-4ff3-9de0-358f56ff6c81" configVersion="b6d0f624d412e04f9d8c75fea69e24ee00000000">
+		<Metadata name="Document.Заказ" id="3b94e066-6fe8-4ff3-9de0-358f56ff6c81" configVersion="6f662d7f7374334d84797abdbe24138c00000000">
 			<Metadata name="Document.Заказ.Attribute.Магазин" id="6ac0ccf1-028d-4f39-a9fc-6f7828350484"/>
 			<Metadata name="Document.Заказ.Attribute.АдресДоставки" id="7cf1f987-efa0-43b0-b302-77f7cfd4eee3"/>
 			<Metadata name="Document.Заказ.Attribute.Состояние" id="bce79890-b292-4b81-b874-e98cd0fd5444"/>
@@ -94,12 +94,12 @@
 			<Metadata name="InformationRegister.ЭтапыПодбораКурьераКЗаказу.Dimension.Заказ" id="8b34d1be-8c0d-40c4-8697-7663d3773ca8"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="a88fc611-a459-4540-8f40-7552ac058a81" configVersion="3d85ddbaf9ffc944839da1b4b614ede800000000"/>
-		<Metadata name="Role.Администратор" id="94add1f8-4c69-46a2-838c-b31e065b8432" configVersion="a77c101104d4054a8fe01067857b5aa500000000"/>
-		<Metadata name="Role.Администратор.Rights" id="94add1f8-4c69-46a2-838c-b31e065b8432.0" configVersion="2deee6db9505664b8c4c891080c23e6e00000000"/>
+		<Metadata name="Role.Администратор" id="94add1f8-4c69-46a2-838c-b31e065b8432" configVersion="9d9c79a287b91e4d8dc1003d2d74120700000000"/>
+		<Metadata name="Role.Администратор.Rights" id="94add1f8-4c69-46a2-838c-b31e065b8432.0" configVersion="ff5b76fad770f3499c8b4a8f8544574100000000"/>
 		<Metadata name="Role.Курьер" id="01ff7d37-066b-4e28-88a3-c6b87ba7edba" configVersion="f9bd0e4a4b013e4ca1c473d513163a5f00000000"/>
 		<Metadata name="Role.Курьер.Rights" id="01ff7d37-066b-4e28-88a3-c6b87ba7edba.0" configVersion="783af98255516f43a69ff873343bbbcb00000000"/>
-		<Metadata name="Role.Менеджер" id="4e41e924-2190-42a0-9e88-5bf90ca5be6b" configVersion="4246ba401077ec44b0d2d9329d4d4d1300000000"/>
-		<Metadata name="Role.Менеджер.Rights" id="4e41e924-2190-42a0-9e88-5bf90ca5be6b.0" configVersion="03174cce690d8d45a8c55473cbb3f35100000000"/>
+		<Metadata name="Role.Менеджер" id="4e41e924-2190-42a0-9e88-5bf90ca5be6b" configVersion="35b470f85f221347be975dffd31e4b0c00000000"/>
+		<Metadata name="Role.Менеджер.Rights" id="4e41e924-2190-42a0-9e88-5bf90ca5be6b.0" configVersion="6096119efb0d6e46bfc218859c4bce8c00000000"/>
 		<Metadata name="ScheduledJob.КонтрольОпаздывающихКурьеров" id="0af27b92-0a86-46ca-944b-3a5f657281a4" configVersion="235f23fbeb07d94e9ac0314136967fa400000000"/>
 		<Metadata name="ScheduledJob.КонтрольОпаздывающихКурьеров.Schedule" id="0af27b92-0a86-46ca-944b-3a5f657281a4.0" configVersion="997c1201c25d6e4bb5d3a13e81c75e1100000000"/>
 		<Metadata name="ScheduledJob.ПодборКурьеровКЗаказам" id="6a6e48eb-2e54-414c-b329-cf58ee8e1925" configVersion="743d850aa4e8ac4b9d82cab8e728dac700000000"/>
