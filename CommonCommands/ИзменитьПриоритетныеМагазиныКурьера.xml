@@ -6,11 +6,11 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Мои приоритетные магазины</v8:content>
+					<v8:content>Приоритетные магазины</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<Group>NavigationPanelImportant</Group>
+			<Group>NavigationPanelOrdinary</Group>
 			<Representation>Auto</Representation>
 			<ToolTip/>
 			<Picture/>

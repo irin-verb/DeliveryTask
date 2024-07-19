@@ -31,11 +31,11 @@
 	</Events>
 	<ChildItems>
 		<LabelDecoration name="ДекорацияПредупреждение" id="32">
-			<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+			<Font ref="style:NormalTextFont" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 			<Title formatted="false">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Можно выбрать не больше двух магазинов</v8:content>
+					<v8:content>Выберите не больше двух магазинов</v8:content>
 				</v8:item>
 			</Title>
 			<ContextMenu name="ДекорацияПредупреждениеКонтекстноеМеню" id="33"/>
