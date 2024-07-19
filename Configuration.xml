@@ -252,11 +252,16 @@
 			<Role>Курьер</Role>
 			<CommonModule>МенеджерКурьеров</CommonModule>
 			<CommonModule>МенеджерЗаказов</CommonModule>
+			<CommonModule>МенеджерРегламентныхЗаданий</CommonModule>
+			<ScheduledJob>ПодборКурьеровКЗаказам</ScheduledJob>
+			<ScheduledJob>КонтрольОпаздывающихКурьеров</ScheduledJob>
 			<CommonCommand>ИзменитьГотовностьКурьераКРаботе</CommonCommand>
 			<CommonCommand>ИзменитьПриоритетныеМагазиныКурьера</CommonCommand>
 			<CommonCommand>ОткрытьЗаявкиНаДоставкуКурьера</CommonCommand>
 			<CommonCommand>ОткрытьТекущуюДоставкуКурьера</CommonCommand>
 			<CommonCommand>ОткрытьЗавершенныеДоставкиКурьера</CommonCommand>
+			<CommonCommand>ОпаздывающиеКурьеры</CommonCommand>
+			<CommonCommand>ПодборКурьеров</CommonCommand>
 			<Catalog>Курьеры</Catalog>
 			<Catalog>Магазины</Catalog>
 			<Document>Заказ</Document>
@@ -264,7 +269,9 @@
 			<Enum>СтатусыГотовностиКурьеровКРаботе</Enum>
 			<Enum>СтадииДоставкиЗаказа</Enum>
 			<Enum>СтатусыПодбораКурьераКЗаказу</Enum>
+			<Enum>СтадииПодбораКурьераКЗаказу</Enum>
 			<InformationRegister>ПодборКурьераКЗаказу</InformationRegister>
+			<InformationRegister>ЭтапыПодбораКурьераКЗаказу</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
